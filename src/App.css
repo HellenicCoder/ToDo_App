@@ -1,0 +1,138 @@
+.App {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .TodoList {
+    margin-top: 20px;
+  }
+  
+  .TodoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .TodoItem input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .TodoItem.completed span {
+    text-decoration: line-through;
+  }
+
+  /* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .Filters {
+    margin-bottom: 20px;
+  }
+  
+  .Filters button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Filters button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Filters button:focus{
+    border-radius: 6px;
+  }
+
+  .TodoList {
+    margin-top: 20px;
+  }
+  
+  .TodoItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .TodoItem.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .TodoItem input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .TodoItem button {
+    margin-left: auto;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .TodoItem button:hover {
+    background-color: #c82333;
+  }
+  
+  .AddTodoForm {
+    margin-top: 20px;
+  }
+/* App.css */
+
+.AddTodoForm input[type="text"] {
+    padding: 10px;
+    border: 2px solid #007bff; /* Change border color */
+    border-radius: 4px;
+    font-size: 16px;
+    width: 60%; /* Adjust width as needed */
+    margin-right: 10px; /* Add margin to separate from button */
+  }
+  
+  .AddTodoForm button {
+    padding: 10px 20px; /* Add padding to make button larger */
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Change background color */
+    color: #fff; /* Change text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  .AddTodoForm button:hover {
+    background-color: #0056b3; /* Change hover background color */
+  }
+
+  .AddTodoForm input[type="text"]:focus {
+    border-radius: 8px;
+  }
+  .highlight {
+    color: #007bff; /* Change text color to blue */
+    text-decoration: underline; /* Add underline */
+  }
